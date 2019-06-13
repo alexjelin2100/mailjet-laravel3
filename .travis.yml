@@ -3,7 +3,7 @@ php:
 - '7.1'
 - '7.2'
 before_install:
-- composer install --dev -v --prefer-source
+- composer update --prefer-source
 script:
 - bin/phpunit -c .
 notifications:
