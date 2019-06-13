@@ -5,6 +5,10 @@ php:
 before_install:
 - composer install --dev -v --prefer-source
 script:
+- eval "$(ssh-agent -s)"
+- chmod 600 /tmp/deploy_key
+- ssh-add /tmp/deploy_key
+- ssh-agent -k
 - bin/phpunit -c .
 notifications:
   slack:
