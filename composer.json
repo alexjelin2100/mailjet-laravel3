@@ -1,11 +1,9 @@
 {
-    "name": "mailjet4/laravel-mailjet44",
+    "name": "mailjet/laravel-mailjet",
     "description": "Laravel package for Mailjet API V3 and Laravel Mailjet Mail Transport",
     "keywords": ["framework", "laravel", "mailjet", "mailjet wrapper", "transport", "mailjet API"],
     "license": "MIT",
     "type": "library",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "homepage": "https://github.com/mailjet/laravel-mailjet",
     "authors": [
         {
@@ -29,7 +27,7 @@
         "laravel/framework": "5.6.*",
         "laravel/tinker": "~1.0",
         "mailjet/mailjet-apiv3-php": "^1.2",
-        "mailjet/mailjet-swiftmailer": "dev-master"
+        "mailjet/mailjet-swiftmailer": "dev-develop"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
