@@ -5,8 +5,6 @@
     "license": "MIT",
     "type": "library",
     "homepage": "https://github.com/mailjet/laravel-mailjet",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Gaetan DELBART",
