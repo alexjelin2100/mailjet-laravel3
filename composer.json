@@ -4,6 +4,8 @@
     "keywords": ["framework", "laravel", "mailjet", "mailjet wrapper", "transport", "mailjet API"],
     "license": "MIT",
     "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "homepage": "https://github.com/mailjet/laravel-mailjet",
     "authors": [
         {
